@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>과제3_2</title>
+</head>
+<script>
+    function new_row(prev_row) {
+        var pas_nums1 = [];
+        var pas_nums2 = [];
+
+        pas_nums1[0] = 0;
+        pas_nums1[1] = 1;
+        if (prev_row === 1) {
+            document.write(pas_nums1[1]);
+        }
+        else {
+            for (var i = 1; i <= prev_row; i++) {
+                for (var j = 1; j <= i; j++) {
+                    if(j === i){
+                        pas_nums2[j]=1;
+                        document.write(pas_nums2[j]);
+                    }
+                    else{
+                        pas_nums2[j] = pas_nums1[j - 1] + pas_nums1[j];
+                        document.write(pas_nums2[j]);
+                    }
+                    document.write(" ");
+                }
+                 for (var k = 1; k <= i; k ++) {
+                     pas_nums1[k] = pas_nums2[k];
+                 }
+                document.write("<br>");
+            }
+        }
+    }
+</script>
+<body>
+<h3>과제3_2</h3>
+<script>
+    var prev_row = prompt("파스칼 삼각형의 높이는?","");
+    new_row(prev_row);
+</script>
+</body>
+</html>

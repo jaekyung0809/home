@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>과제3_1</title>
+    <script>
+        function hex(n) {
+            var m = parseInt(n,2);
+            var hex_n;
+            document.write("10진수는: "+ m +"<br>");
+            if(m <10)
+                 document.write("16진수는: "+ m +"<br>");
+            else{
+                switch (m){
+                    case 10:
+                        hex_n = 'A';
+                        break;
+                    case 11:
+                        hex_n = 'B';
+                        break;
+                    case 12:
+                        hex_n = 'C';
+                        break;
+                    case 13:
+                        hex_n = 'D';
+                        break;
+                    case 14:
+                        hex_n = 'E';
+                        break;
+                    case 15:
+                        hex_n = 'F';
+                        break;
+                }
+                document.write("16진수는: "+ hex_n +"<br>");
+            }
+        }
+    </script>
+</head>
+<body>
+<h3>과제3_1</h3>
+<script>
+    var n = prompt("2진수 4자리를 입력하세요","");
+    hex(n);
+</script>
+</body>
+</html>

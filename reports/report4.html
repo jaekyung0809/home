@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>과제 4- 자바스크립트 DOM 프로그래밍</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+        function transform(){
+            var tr_digit = document.getElementById("digit").value;
+            var m = parseInt(tr_digit,2);
+            var tra_hex;
+            if(m <10){
+                document.getElementById("hexanum").value = m;
+            }
+            else {
+                switch (m) {
+                    case 10:
+                        tra_hex = 'A';
+                        break;
+                    case 11:
+                        tra_hex = 'B';
+                        break;
+                    case 12:
+                        tra_hex = 'C';
+                        break;
+                    case 13:
+                        tra_hex = 'D';
+                        break;
+                    case 14:
+                        tra_hex = 'E';
+                        break;
+                    case 15:
+                        tra_hex = 'F';
+                        break;
+                }
+                document.getElementById("hexanum").value = tra_hex;
+            }
+        }
+
+    function pascals() {
+            var prev_row = document.getElementById("size").value;
+            var draw = document.getElementById("draw_area");
+            var pas = "";
+            var pas_nums1 = [];
+            var pas_nums2 = [];
+
+            pas_nums1[0] = 0;
+            pas_nums1[1] = 1;
+
+            if (prev_row === 1) {
+                draw.innerHTML = pas_nums1[1] ;
+            }
+            else {
+                for (var i = 1; i <= prev_row; i++) {
+                    for (var j = 1; j <= i; j++) {
+                        if (j === i) {
+                            pas_nums2[j] = 1;
+                            pas += pas_nums2[j] ;
+                        }
+                        else {
+                            pas_nums2[j] = pas_nums1[j - 1] + pas_nums1[j];
+                            pas += pas_nums2[j] ;
+                        }
+                        draw.innerHTML = pas;
+                        pas += "&nbsp";
+                        draw.innerHTML = pas ;
+                    }
+                    for (var k = 1; k <= i; k++) {
+                        pas_nums1[k] = pas_nums2[k];
+                    }
+                    pas += "<br>";
+                    draw.innerHTML = pas;
+                }
+            }
+    }
+
+    </script>
+</head>
+<body>
+<div class="container-sm mt-5">
+    <div class="h3">2진수 변환기</div>
+    <div class="mb-3">
+        <label class="form-label text-primary">2진수:
+        <input type="text" id="digit" size="20">
+        </label>
+        <button type="button" class="btn btn-dark" onclick="transform()"> ===> </button>
+        <label class="form-label text-primary">16진수:
+            <input type="text" id="hexanum" size="20" readonly value="">
+        </label>
+    </div>
+    <hr>
+    <div class="h3">파스칼 삼각형</div>
+    <div class="mb-3">
+        <label class="form-label text-primary">삼각형 높이
+            <input type="number" id="size" min="1" max="20" step="1" value="1">
+            <button type="button" class="btn btn-success" onclick="pascals()">그리기</button>
+        </label>
+    </div>
+    <div class="text-bg-secondary" id="draw_area"></div>
+</div>
+</body>
+</html>

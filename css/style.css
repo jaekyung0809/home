@@ -422,7 +422,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #084B8A;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -456,7 +456,8 @@ button {
 .experience_taital_main {
     width: 100%;
     padding-left: 100px;
-    padding-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .padding_right_0 {
@@ -477,6 +478,7 @@ button {
     font-size: 16px;
     color: #1f1f1f;
     margin: 0px;
+    padding-left: 30px;
 }
 
 .readmore_bt {
@@ -500,15 +502,13 @@ button {
 
 .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #084B8A;
 }
 
 .experience_img {
     width: 100%;
     float: left;
 }
-
-
 /* contact section end */
 
 
@@ -528,7 +528,7 @@ button {
 .blog_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 55px;
     color: #ffffff;
     font-weight: bold;
     padding-top: 30px;
@@ -555,9 +555,26 @@ button {
     }
 }
 
-.margin_top_90{
+.margin_top_90 {
     margin-top: 90px;
 }
+.travel{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #0B243B;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.travel_title {
+    padding-top: 40px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 /* blog section end */
 
 
@@ -758,7 +775,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #084B8A;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -939,7 +956,7 @@ button {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #122c2d;
+    background-color: #0B243B;
     height: auto;
 }
 
@@ -957,5 +974,5 @@ button {
 }
 
 .copyright_text a:hover {
-    color: #e27141;
+    color: #04B4AE;
 }

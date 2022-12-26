@@ -54,16 +54,16 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
                         <a class="nav-link" href="index.html">HOME</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="hobby.html">HOBBY</a>
+                        <a class="nav-link" href="#hobby">HOBBY</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="experience.html">EXPERIENCE</a>
+                        <a class="nav-link" href="#experience">EXPERIENCE</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link " href="travel.html">TRAVEL</a>
+                        <a class="nav-link " href="#skill">SKILL</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link " href="skill.html">SKILL</a>
+                        <a class="nav-link " href="#introduction">INTRODUCTION</a>
                      </li>
                   </ul>
                </div>
@@ -74,10 +74,10 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
             <div class="menu_main">
                <ul>
                   <li class="active"><a href="index.html">HOME</a></li>
-                  <li><a href="hobby.html">HOBBY</a></li>
-                  <li><a href="experience.html">EXPERIENCE</a></li>
-                  <li><a href="travel.html">TRAVEL</a></li>
-                  <li><a href="skill.html">SKILL</a></li>
+                  <li><a href="#hobby">HOBBY</a></li>
+                  <li><a href="#experience">EXPERIENCE</a></li>
+                  <li><a href="#skill">SKILL</a></li>
+                  <li><a href="#introduction">INTRODUCTION</a></li>
                </ul>
             </div>
          </div>
@@ -109,7 +109,7 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
    </div>
    <!-- header section end -->
    <!-- hobby section start -->
-   <div class="hobby_section layout_padding">
+   <div class="hobby_section layout_padding" id="hobby">
       <div class="container">
          <h1 class="hobby_taital">HOBBY</h1>
          <p class="hobby_text">
@@ -140,13 +140,22 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
    </div>
    <!-- hobby section end -->
    <!-- experience section start -->
-   <div class="experience_section layout_padding">
+   <div class="experience_section layout_padding" id="experience">
       <div class="container-fluid">
          <div class="row">
             <div class="col-md-5">
                <div class="experience_taital_main">
                   <h1 class="experience_taital">EXPERIENCE</h1>
-                  <p class="experience_text"> 지금까지의 경험</p>
+                  <p class="experience_text">
+                     <ul style="font-size: 18px;">
+                        <div style="font-size: 22px; font-weight:bold;"> <li>2020.03~ 동덕여자대학교 재학중</li>
+                        <li>2020.07~ 동덕여자대학교 중앙게임동아리 OCG 운영진</li></div>
+                        <li>2021.03~ 2021.09 동덕여자대학교 데이터분석동아리 DALC</li>
+                        <li>2021.07~ 2021.08 강남 엠브레인 사무보조</li>
+                        <li>2021.09~ 2021.12 경기신용보증재단 인턴</li>
+                        <li>2021.09~ 2021.12 동덕여자대학교 학술동아리 OUTLIER 운영진</li>
+                     </ul>
+                  </p>
                   <div class="readmore_bt"><a href="experience.html">자세히 보기</a></div>
                </div>
             </div>
@@ -158,28 +167,34 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
    </div>
    <!-- experience section end -->
    <!-- blog section start -->
-    <div class="blog_section layout_padding">
+    <div class="blog_section layout_padding" id="skill">
       <div class="container">
-         <h1 class="blog_taital">TRAVEL</h1>
-         <p class="blog_text">
-            여행 경험<br>
-            .<br>
-            .<br>
-            .<br>
-            .<br>
-            .<br>
-            .<br>
-            .<br>
-            <br>
-            <br>
-            <br>
-            <br>
-         </p>
+         <h1 class="blog_taital">SKILL</h1>
+         <div class="travel">
+            <div class="row">
+               <div class="col-md-6"><p class="travel_title">ㅇ</p>
+                  <ul>
+                     <li>파이썬</li>
+                     <li>c+</li>
+                     <li>mysql</li>
+                     <li>R</li>
+                     <li>.</li>
+                  </ul>
+               </div>
+               <div class="col-md-6"><p class="travel_title">ㅇ</p>
+                  <ul>
+                     <li>웹프</li>
+                     <li>.</li>
+                     <li>.</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
       </div>
-   </div>
+    </div>
    <!-- blog section end -->
    <!-- client section start -->
-   <div class="client_section layout_padding">
+   <div class="client_section layout_padding" id="introduction">
       <div class="container">
          <h1 class="client_taital">SIMPLE INTRODUCTION</h1>
          <div class="client_section_2">
@@ -192,7 +207,11 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
                   <div class="carousel-item active">
                      <div class="client_main">
                         <div class="box_left">
-                           <p class="lorem_text">내용</p>
+                           <p class="lorem_text">안녕하세요. 제 이름은 이재경입니다.<br>
+                              저는 2001년 8월 9일생 입니다. 20살에 동덕여자대학교를 입학해서 현재까지 재학 중에 있습니다.<br>
+                              저는 미래에 데이터 분석가가 되는 것을 꿈꾸고 있습니다. <br>
+                              따라서 취미와 맞는 계열의 데이터를 분석하는 일을 직업으로 삼는 것을 목표로 하고있습니다.<br>
+                           </p>
                         </div>
                         <div class="box_right">
                            <div class="client_taital_left">
@@ -209,7 +228,9 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
                   <div class="carousel-item">
                      <div class="client_main">
                         <div class="box_left">
-                           <p class="lorem_text">내용</p>
+                           <p class="lorem_text">제 좌우명은 <span style="font-weight: bold; font-size: 20px"> '행복하게 살기'</span>입니다.<br>
+                           행복하게 산다는 것은 말로 꺼내기에 쉽지만 막상 매일 실천하기엔 어려운 것이라고 생각합니다.<br>
+                           매일을 행복하게 사는 것은 불가능하지만, 어렸을 적 칭찬스티커처럼 하루하루 행복하게 산다면 결국 돌아보았을 때 행복한 인생일 것이라는 마음가짐으로 행복할 수 있도록 노력중입니다.</p>
                         </div>
                         <div class="box_right">
                            <div class="client_taital_left">
@@ -233,11 +254,12 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
    <div class="choose_section layout_padding">
       <div class="container">
          <h1 class="choose_taital">MY STRENGTH</h1>
-         <p class="choose_text">내 강점에 대해서</p>
-         <div class="newsletter_box">
-            <h1 class="let_text">If You Curious About My Skill</h1>
-            <div class="getquote_bt"><a href="skill.html">MY SKILL</a></div>
-         </div>
+         <p class="choose_text">제 강점은 <span style="font-weight: bold; font-size:18px;">'넘어져도 빠르게 회복하는 것'</span>입니다.<br>
+            지금껏 경험했던 많은 실패와 슬픈 감정들, 쓰라린 경험들은 모두 발판이 되어 지금의 제가 있다고 생각합니다.<br>
+            이런 마음가짐으로 행동하다보니 넘어지더라도 빠르게 다시 일어나는 강점을 가지게 되었습니다.<br>
+            제 모토와도 일맥상통하는 '실패는 성공의 어머니' 라는 속담을 좋아하기도 합니다. <br>
+            탄력성을 가진 저는 남들보다 많은 것을 시도해보고, 자주 실패해보고 더 많이 경험하며 <span style="font-weight: bold;">더욱 높이 발전할 것</span>이라고 믿습니다.<br>
+         </p>
       </div>
    </div>
    <!-- choose section end -->
@@ -279,6 +301,7 @@ https://themewagon.com/themes/free-bootstrap-5-travel-agency-website-template-a-
    <!-- javascript -->
    <script src="js/owl.carousel.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
 </body>
 
 </html>

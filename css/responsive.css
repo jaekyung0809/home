@@ -135,11 +135,11 @@
     .banner_text {
         width: 100%;
     }
-    .about_taital_main {
+    .experience_taital_main {
         padding-left: 25px;
         padding-top: 40px;
     }
-    .about_text {
+    .experience_text {
         padding-top: 0px;
         font-size: 14px;
     }
@@ -205,18 +205,18 @@
     .banner_text {
         width: 100%;
     }
-    .about_taital_main {
+    .experience_taital_main {
         padding-left: 25px;
         padding-top: 0px;
     }
-    .about_text {
+    .experience_text {
         padding-top: 0px;
         font-size: 14px;
     }
     .readmore_bt {
         margin-top: 30px;
     }
-    .about_img {
+    .experience_img {
         height: 340px;
     }
     .blog_section {
@@ -348,26 +348,26 @@
     .banner_section {
         padding: 50px 0px;
     }
-    .services_section {
+    .hobby_section {
         padding: 50px 0px;
     }
-    .services_section_2 {
+    .hobby_section_2 {
         margin-top: 30px;
     }
-    .services_img {
+    .hobby_img {
         margin-top: 40px;
     }
-    .about_section {
+    .experience_section {
         padding: 50px 0px;
     }
-    .about_taital_main {
+    .experience_taital_main {
         padding-top: 0px;
         padding-left: 0px;
     }
-    .about_text {
+    .experience_text {
         font-size: 15px;
     }
-    .about_img {
+    .experience_img {
         padding-top: 30px;
     }
     .padding_right_0 {
@@ -546,26 +546,26 @@
     .banner_section {
         padding: 50px 0px;
     }
-    .services_section {
+    .hobby_section {
         padding: 50px 0px;
     }
-    .services_section_2 {
+    .hobby_section_2 {
         margin-top: 30px;
     }
-    .services_img {
+    .hobby_img {
         margin-top: 40px;
     }
-    .about_section {
+    .experience_section {
         padding: 50px 0px;
     }
-    .about_taital_main {
+    .experience_taital_main {
         padding-top: 0px;
         padding-left: 0px;
     }
-    .about_text {
+    .experience_text {
         font-size: 15px;
     }
-    .about_img {
+    .experience_img {
         padding-top: 30px;
     }
     .padding_right_0 {

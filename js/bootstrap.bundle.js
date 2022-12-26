@@ -3470,7 +3470,7 @@
      * Modifier used to make sure the reference and its popper stay near eachothers
      * without leaving any gap between the two. Expecially useful when the arrow is
      * enabled and you want to assure it to point to its reference element.
-     * It cares only about the first axis, you can still have poppers with margin
+     * It cares only experience the first axis, you can still have poppers with margin
      * between the popper and its reference element.
      * @memberof modifiers
      * @inner

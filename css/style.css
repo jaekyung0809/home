@@ -1048,3 +1048,16 @@ button {
     overflow: hidden;
     transition: 0.5s;
 }
+.drawing{
+    margin:10px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.drawing:hover{
+    width: 550px;
+    height: 550px;
+}

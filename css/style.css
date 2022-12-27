@@ -1038,6 +1038,6 @@ button {
 }
 
 .music_box:hover {
-    transform: translateY(-20px);
+    transform: translateY(+20px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.21);
 }

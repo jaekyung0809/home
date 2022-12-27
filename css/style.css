@@ -976,3 +976,68 @@ button {
 .copyright_text a:hover {
     color: #04B4AE;
 }
+
+.game_img {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.game_img :hover {
+   background: rgba(20, 157, 221, 0.95);
+}
+
+
+.card{
+    margin:10px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.game_content{
+    position: absolute;
+    width: inherit;
+    height:  inherit;
+    top: 100%;
+    left:0;
+    box-sizing: border-box;
+    color: #0A122A;
+    text-align: center;
+    padding: 30px 20px 20px;
+    transition: 0.5s;
+
+}
+
+.game_content h2{
+    font-size: 30px;
+}
+
+.game_content h2 span{
+    display:block;
+    font-size: 14px;
+    color: gold;
+    margin-top:10px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.21);
+}
+
+.music_box{
+    margin:10px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 70%;
+}
+
+.music_box:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.21);
+}
